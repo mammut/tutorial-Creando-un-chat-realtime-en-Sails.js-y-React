@@ -72,10 +72,10 @@ var ChatList = React.createClass({
 var ChatMessage = React.createClass({
   render: function() {
     return (
-            <div className="ChatMessage">
+            <li className="ChatMessage">
               <span className="author">{this.props.author}</span>
               <span className="message">{this.props.text}</span>
-            </div>
+            </li>
     );
   }
 });
